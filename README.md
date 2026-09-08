@@ -1,2 +1,1 @@
-# Transport Management App.
-Aqui está só o texto. Copia tudo, cola no README e confirma em "Commit changes".
+Copie somente daqui para baixo. Depois substitui tudo no README e confirma o "Commit changes".
