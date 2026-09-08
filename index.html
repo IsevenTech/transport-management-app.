@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport Management App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 24px 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: #cbd5e1;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 16px;
+      color: #64748b;
+    }
+
+    .number {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .section {
+      background: white;
+      margin-top: 30px;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .status {
+      font-weight: bold;
+    }
+
+    .active {
+      color: #16a34a;
+    }
+
+    .pending {
+      color: #d97706;
+    }
+
+    @media (max-width: 800px) {
+      .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Transport Management App</h1>
+    <p>Transport operations dashboard</p>
+  </header>
+
+  <main>
+
+    <div class="cards">
+      <div class="card">
+        <h2>Drivers</h2>
+        <div class="number">24</div>
+      </div>
+
+      <div class="card">
+        <h2>Vehicles</h2>
+        <div class="number">18</div>
+      </div>
+
+      <div class="card">
+        <h2>Deliveries</h2>
+        <div class="number">126</div>
+      </div>
+
+      <div class="card">
+        <h2>Active Trips</h2>
+        <div class="number">8</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Recent Transport Operations</h2>
+
+      <table>
+        <tr>
+          <th>Driver</th>
+          <th>Vehicle</th>
+          <th>Destination</th>
+          <th>Status</th>
+        </tr>
+
+        <tr>
+          <td>John Smith</td>
+          <td>TRK-102</td>
+          <td>Dublin</td>
+          <td class="status active">Active</td>
+        </tr>
+
+        <tr>
+          <td>Michael Brown</td>
+          <td>TRK-118</td>
+          <td>Cork</td>
+          <td class="status pending">Pending</td>
+        </tr>
+
+        <tr>
+          <td>David Wilson</td>
+          <td>TRK-124</td>
+          <td>Galway</td>
+          <td class="status active">Active</td>
+        </tr>
+      </table>
+    </div>
+
+  </main>
+
+</body>
+</html>
