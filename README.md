@@ -1,1 +1,1 @@
-Copie somente daqui para baixo. Depois substitui tudo no README e confirma o "Commit changes".
+Cola só isso no README, apaga qualquer outra linha e depois clica em "Commit changes".
