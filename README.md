@@ -1,4 +1,3 @@
-Full-stack transport management application for managing drivers, vehicles, deliveries and active trips.
 
 # 🚚 Transport Management App
 
