@@ -1,8 +1,8 @@
-
 # 🚚 Transport Management App
 
-A full-stack transport management application designed to help manage transport operations in one place.
+![Transport Management Dashboard](transport-management-dashboard.png)
 
+A full-stack transport management application designed to help manage transport operations in one place.
 ## 📋 About the Project
 
 This web application provides a simple and user-friendly dashboard for organizing and managing transport information.
