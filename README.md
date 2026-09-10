@@ -1,30 +1,34 @@
-Transport Management App
+Full-stack transport management application for managing drivers, vehicles, deliveries and active trips.
 
-A full-stack transport management system built with React and Python.
+# 🚚 Transport Management App
 
-About the Project
+A full-stack transport management application designed to help manage transport operations in one place.
 
-A web application designed to help manage transport operations in one place.
+## 📋 About the Project
 
-Features
+This web application provides a simple and user-friendly dashboard for organizing and managing transport information.
 
-* Manage drivers
-* Manage vehicles
-* Manage deliveries
-* Track transport status
-* Organize transport information
-* Simple and user-friendly dashboard
+## ✨ Features
 
-Technologies
+- 👨‍✈️ Manage drivers
+- 🚛 Manage vehicles
+- 📦 Manage deliveries
+- 📍 Track transport status
+- 📊 Organize transport information
+- 🖥️ Simple and user-friendly dashboard
 
-* React
-* Python
-* GitHub
+## 🛠️ Technologies
 
-Project Status
+- React
+- Python
+- GitHub
+
+## 🚀 Project Status
 
 In development.
 
-Goal
+## 👨‍💻 Author
 
-Build a practical transport management system that demonstrates full-stack development skills.
+João Ildefonso Oliveira
+
+Software Engineer
