@@ -1,6 +1,6 @@
-# 🚚 Transport Management App
+3# 🚚 Transport Management App
 
-![Transport Management Dashboard](transport-management-dashboard.png)
+<img src="transport-management-dashboard.png" width="800">
 
 A full-stack transport management application designed to help manage transport operations in one place.
 ## 📋 About the Project
